@@ -1,0 +1,26 @@
+.greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    height: 90vh;
+    width: 100%;
+    background-color: #222831;
+    color: white;
+    position: relative;
+
+}
+
+.greeting h1{
+    position: relative;
+    top: -5rem;
+}
+
+.greeting p {
+    position: relative;
+    width: 55%;
+    text-align:center;
+    top: -3rem;
+
+}
