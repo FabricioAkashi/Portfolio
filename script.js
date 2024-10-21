@@ -1,6 +1,6 @@
 function downloadPDF() {
     const link = document.createElement('a');
-    link.href = './assets/fabricioAkashiCV.pdf';
+    link.href = 'https://www.fabricioakashi.site/assets/fabricioAkashiCV.pdf';
     link.download = 'Fabricio-CV.pdf';
     link.click();
 }
