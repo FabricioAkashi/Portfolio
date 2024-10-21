@@ -23,6 +23,9 @@
     <!-- Projects section stylsheet -->
     <link rel="stylesheet" href="./styles/project.css">
 
+    <!-- Mobile nav stylesheet -->
+    <link rel="stylesheet" href="./styles/mobilenav.css">
+
     <script src="https://kit.fontawesome.com/7d88bb4df9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="icon" href="./images/Home (2).png">
@@ -32,16 +35,25 @@
 <body>
     <!-- Header -->
     <header>
-    <nav>
-        <img src="./images/icons/Home (2).png" alt="Logo">
-        <ul class="navlist">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><button class="contact">Contact</button></li>
-        </ul>
-    </nav> 
-</header>
+        <nav>
+            <img src="./images/icons/Home (2).png" alt="Logo">
+
+            <!-- Mobile Navbar -->
+            <div class="mobile-nav">
+                <div class="l1"></div>
+                <div class="l2"></div>
+                <div class="l3"></div>
+            </div>
+
+            <ul class="navlist">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><button class="contact">Contact</button></li>
+            </ul>
+        </nav> 
+
+    </header>
 
     
     <section class="content">
@@ -165,6 +177,7 @@
 </section>
 
 <script src="scroll.js"></script>
+<script src="mobilenav.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
