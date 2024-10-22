@@ -1,0 +1,38 @@
+#footer{
+    background-color: #222831;
+
+    margin-bottom: 0%;
+    color: white;
+    text-align: center;
+    padding: 10vh;
+
+}
+
+#footer h1{
+    font-size: 1.2em;
+}
+
+#footer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in;
+}
+
+#footer span{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.email{
+    color: white;
+}
+
+.icons{
+    margin:10px;
+    transition: 0.3s;
+    color: white;
+}
+
+#footer i:hover{
+    opacity: 0.5;
+}

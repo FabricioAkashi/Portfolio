@@ -8,57 +8,32 @@
     color: white;
 }
 
-#skills h1{
-    margin-bottom: 15px;
-}
-
 .card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: rgb(92, 92, 92);
-    color: black;
-    height: 90vh;
-    width: 80%;
-    border-radius: 15px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-    position: relative;
+    border-radius: 10px;
     padding: 50px;
+    max-width: 100%;
+    width: 80vw;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
     background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
-    overflow: hidden;
+    }
+
+.card h2{
+    color: white;
+    margin-bottom: 30px;
 }
 
-.card h1{
-    color: white;
-}
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 15px;
-    padding: 20px;
-    list-style-type: none;
-    max-width: 70%;
-    margin: 0 auto; 
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    color: black;
 }
 
-.grid-container li {
-    display: flex;
-    flex-direction: column;
-    background-color: #cacaca; 
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    transition: 0.3s;
-}
-
-.grid-container li:hover{
-    background-color: #9c9c9c;
-}
-
-.icon{
+/* .icon{
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -72,19 +47,34 @@
 
 .icon:hover{
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288); 
+} */
+
+
+@media (min-width: 600px) {
+    .card {
+        width: 600px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Aumenta o tamanho mínimo */
+    }
+
+    .grid-item {
+        padding: 40px; /* Aumenta o espaçamento interno */
+    }
 }
 
-.img-icon{
-    height: 40px;
+/* Em telas maiores que 900px */
+@media (min-width: 900px) {
+    .card {
+        width: 800px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Aumenta ainda mais o tamanho mínimo */
+    }
+
+    .grid-item {
+        padding: 50px; /* Aumenta mais o espaçamento interno */
+    }
 }
-
-#bootstrap{
-    height: 50px;
-}
-
-.skill-card{
-    display: flex;
-    flex-direction: column;
-}
-
-

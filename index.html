@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
 
+    
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="./styles/style.css">
 
@@ -25,6 +26,9 @@
 
     <!-- Mobile nav stylesheet -->
     <link rel="stylesheet" href="./styles/mobilenav.css">
+
+    <!-- Contact/footer stylesheet -->
+    <link rel="stylesheet" href="./styles/contact.css">
 
     <script src="https://kit.fontawesome.com/7d88bb4df9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -49,7 +53,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><button class="contact">Contact</button></li>
+                <li><a href="#footer" class="contact">Contact</a></li>
             </ul>
         </nav> 
 
@@ -89,44 +93,34 @@
 
         <!-- Skills section -->
         <section id="skills">
-            
             <div class="card">
-                <h1>Here are some of my skills:</h1>
-                <ul class="grid-container">
-                    
-                    <li>
-                    <div class="icon">
-                        <img src="./images/icons/Home (5).png" alt="" class="img-icon">
+                <h2>Here are some of my skills:</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="./images/icons/Home (5).png" alt="" style="height: 40px; width: 70px;">
+                        <p>HTML & CSS</p>
                     </div>
-                        HTML & CSS
-                    </li>
-                    <li>
-                        <div class="icon">
-                        <img src="./images/icons/Home (6).png" alt="" class="img-icon">
-                        </div>
-                        Javascript
-                    </li>
-                    <li>
-                        <div class="icon"><img src="./images/icons/png-clipart-bootstrap-logo-thumbnail-tech-companies-removebg-preview.png" alt="" id="bootstrap"></div>
-                        Bootstrap
-                    </li>
-                    <li>
-                        <div class="icon">
-                            <img src="./images/icons/Home (8).png" alt="" class="img-icon">
+                    <div class="grid-item">
+                        <img src="./images/icons/Home (6).png" alt="" style="height: 40px; width: 50px;">
+                        <p>Javascript</p>
                     </div>
-                        Git/Github
-                    </li>
-                    <li>
-                        <div class="icon"><img src="./images/icons/database-39-32.png" alt="" class="img-icon"></div>
-                        SQL
-                    </li>
-                    <li><div class="icon"><img src="./images/icons/nodejs.256x157.png" alt="" class="img-icon"></div>
-                        NodeJS
-                    </li>
-                    <li><div class="icon"><img src="./images/icons/1174949_js_react js_logo_react_react native_icon.png" alt="" class="img-icon"></div>
-                        React
-                    </li>
-                </ul>
+                    <div class="grid-item">
+                        <img src="./images/icons/1174949_js_react js_logo_react_react native_icon.png" alt="" style="height: 40px; width: 50px;">
+                        <p>React</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/icons/nodejs.256x157.png" alt="" style="height: 40px; width: 60px;">
+                        <p>NodeJS</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/icons/database-39-32.png" alt="" style="height: 40px; width: 40px;">
+                        <p>SQL</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/icons/Home (8).png" alt="" style="height: 40px; width: 40px;">
+                        <p>Git/Github</p>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
@@ -140,44 +134,57 @@
             <div class="grid-item">
                 <img src="./images/portifolio.png" alt="Imagem 4">
                 <p class="desc">Click the button below to see the repository of this website</p>
-                <a href="https://github.com/FabricioAkashi/Portifolio" target="_blank"><button class="btn">Repository</button></a>
+                <a href="https://github.com/FabricioAkashi/Portifolio" target="_blank"><button class="rep-btn">Repository</button></a>
             </div>
             <div class="grid-item">
                 <img src="./images/DiceGame.png" alt="Imagem 1">
                 <p class="desc">A dice game where you can roll 2 dices and see who wins, refresh the page for a new game! </p>
-                <a href="https://dice-game-ten-neon.vercel.app/" target="_blank"><button class="btn">Go to website</button></a>
-                <a href="https://github.com/FabricioAkashi/Dice-game" target="_blank"><button class="btn">Repository</button></a>
+                <div class="p-btn">
+                    <a href="https://dice-game-ten-neon.vercel.app/" target="_blank"><button class="web-btn">Go to website</button></a>
+                    <a href="https://github.com/FabricioAkashi/Dice-game" target="_blank"><button class="rep-btn">Repository</button></a>
+                </div> 
             </div>
             <div class="grid-item">
-                <img src="./images/Tindog.png" alt="Imagem 2">
-                <p class="desc">A Tinder inspired page, but for Dogs!</p>
-                <a href="https://tindog-eta-cyan.vercel.app/" target="_blank"><button class="btn">Go to website</button></a>
-                <a href="https://github.com/FabricioAkashi/Tindog" target="_blank"><button class="btn">Repository</button></a>
+                    <img src="./images/Tindog.png" alt="Imagem 2">
+                    <p class="desc">A Tinder inspired page, but for Dogs!</p>
+                <div class="p-btn">
+                    <a href="https://tindog-eta-cyan.vercel.app/" target="_blank"><button class="web-btn">Go to website</button></a>
+                    <a href="https://github.com/FabricioAkashi/Tindog" target="_blank"><button class="rep-btn">Repository</button></a>
+                </div>
             </div>
             <div class="grid-item">
-                <img src="./images/Drums.png" alt="Imagem 3">
-                <p class="desc">Play the sound of an instrument by clicking on the buttons or pressing the respective key on your keyboard.</p>
-                <a href="https://drums-website.vercel.app/" target="_blank"><button class="btn">Go to website</button></a>
-                <a href="https://github.com/FabricioAkashi/Drums-website" target="_blank"><button class="btn">Repository</button></a>
+                    <img src="./images/Drums.png" alt="Imagem 3">
+                    <p class="desc">Play the sound of an instrument by clicking on the buttons or pressing the respective key on your keyboard.</p>
+                <div class="p-btn">
+                    <a href="https://drums-website.vercel.app/" target="_blank"><button class="web-btn">Go to website</button></a>
+                    <a href="https://github.com/FabricioAkashi/Drums-website" target="_blank"><button class="rep-btn">Repository</button></a>
+                </div>
             </div>
             <div class="grid-item">
-                <img src="./images/SimonGame.png" alt="Imagem 4">
-                <p class="desc">A simon game website using Javascript</p>
-                <a href="https://simon-game-ivory-one.vercel.app/" target="_blank"><button class="btn">Go to website</button></a>
-                <a href="https://github.com/FabricioAkashi/Simon-Game" target="_blank"><button class="btn">Repository</button></a>
+                    <img src="./images/SimonGame.png" alt="Imagem 4">
+                    <p class="desc">A simon game website using Javascript</p>
+                <div class="p-btn">
+                    <a href="https://simon-game-ivory-one.vercel.app/" target="_blank"><button class="web-btn">Go to website</button></a>
+                    <a href="https://github.com/FabricioAkashi/Simon-Game" target="_blank"><button class="rep-btn">Repository</button></a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Contacts/footer section -->
     <section id="footer">
-
-        
-    </section>
+            <h1>If you'd like to contact me wether for work or a project, please feel free to send me an email!</h1>
+            <a href="mailto:fabricio.akashi26@gmail.com?subject=Oportunidade%20de%20Trabalho&body=Olá%20Fabricio,%20gostaria%20de%20conversar.%20Quando%20poderíamos%20agendar%20uma%20reunião?" class="email"><p>fabricio.akashi26@gmail.com</p></a>
+            <span>Or use any of these socials below:</span>
+            <br/>
+            <a href="https://br.linkedin.com/in/fabricio-ryu-akashi-santana" target="_blank" class="icons"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+            <a href="https://github.com/FabricioAkashi" target="_blank" class="icons"><i class="fa-brands fa-github fa-xl"></i></a>
+</section>
 </section>
 
 <script src="scroll.js"></script>
 <script src="mobilenav.js"></script>
 <script src="script.js"></script>
+<script src="hoverani.js"></script>
 </body>
 </html>

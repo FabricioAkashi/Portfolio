@@ -1,0 +1,36 @@
+<ul class="grid-container">
+                    
+                    <li>
+                    <div class="icon">
+                        <img src="./images/icons/Home (5).png" alt="" class="img-icon">
+                    </div>
+                        HTML & CSS
+                    </li>
+                    <li>
+                        <div class="icon">
+                        <img src="./images/icons/Home (6).png" alt="" class="img-icon">
+                        </div>
+                        Javascript
+                    </li>
+                    <li>
+                        <div class="icon">
+                        <img src="./images/icons/png-clipart-bootstrap-logo-thumbnail-tech-companies-removebg-preview.png" alt="" id="bootstrap"></div>
+                        Bootstrap
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <img src="./images/icons/Home (8).png" alt="" class="img-icon">
+                    </div>
+                        Git/Github
+                    </li>
+                    <li>
+                        <div class="icon"><img src="./images/icons/database-39-32.png" alt="" class="img-icon"></div>
+                        SQL
+                    </li>
+                    <li><div class="icon"><img src="./images/icons/nodejs.256x157.png" alt="" class="img-icon"></div>
+                        NodeJS
+                    </li>
+                    <li><div class="icon"><img src="./images/icons/1174949_js_react js_logo_react_react native_icon.png" alt="" class="img-icon"></div>
+                        React
+                    </li>
+                </ul>

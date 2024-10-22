@@ -3,12 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin-top: 20vh;
     height: 90vh;
     width: 100%;
     background-color: #222831;
     color: white;
     position: relative;
+    padding-top: 50px;
 
 }
 
