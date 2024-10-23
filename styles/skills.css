@@ -67,25 +67,24 @@
     }
 
     .grid-container {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Aumenta o tamanho mínimo */
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 
     .grid-item {
-        padding: 40px; /* Aumenta o espaçamento interno */
+        padding: 40px; 
     }
 }
 
-/* Em telas maiores que 900px */
 @media (min-width: 900px) {
     .card {
         width: 60%;
     }
 
     .grid-container {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Aumenta ainda mais o tamanho mínimo */
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
     }
 
     .grid-item {
-        padding: 50px; /* Aumenta mais o espaçamento interno */
+        padding: 50px; 
     }
 }
