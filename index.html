@@ -1,189 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
 
-    
     <!-- Main stylesheet -->
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <!-- Navigation bar stylesheet -->
-    <link rel="stylesheet" href="./styles/nav.css">
-    
+    <link rel="stylesheet" href="./styles/nav.css" />
+
     <!-- About me section stylesheet -->
-    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/about.css" />
 
     <!-- Greeting section stylesheet -->
-    <link rel="stylesheet" href="./styles/greeting.css">
+    <link rel="stylesheet" href="./styles/greeting.css" />
 
     <!-- Skills section stylsheet -->
-    <link rel="stylesheet" href="./styles/skills.css">
+    <link rel="stylesheet" href="./styles/skills.css" />
 
     <!-- Projects section stylsheet -->
-    <link rel="stylesheet" href="./styles/project.css">
+    <link rel="stylesheet" href="./styles/project.css" />
 
     <!-- Mobile nav stylesheet -->
-    <link rel="stylesheet" href="./styles/mobilenav.css">
+    <link rel="stylesheet" href="./styles/mobilenav.css" />
 
     <!-- Contact/footer stylesheet -->
-    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/contact.css" />
 
-    <script src="https://kit.fontawesome.com/7d88bb4df9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="icon" href="./images/Home (2).png">
+    <script
+      src="https://kit.fontawesome.com/7d88bb4df9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="icon" href="./images/Home (2).png" />
     <script src="https://unpkg.com/scrollreveal"></script>
-
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <nav>
-            <img src="./images/icons/Home (2).png" alt="Logo">
+      <nav>
+        <img src="./images/icons/Home (2).png" alt="Logo" />
 
-            <!-- Mobile Navbar -->
-            <div class="mobile-nav">
-                <div class="l1"></div>
-                <div class="l2"></div>
-                <div class="l3"></div>
-            </div>
+        <!-- Mobile Navbar -->
+        <div class="mobile-nav">
+          <div class="l1"></div>
+          <div class="l2"></div>
+          <div class="l3"></div>
+        </div>
 
-            <ul class="navlist">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#footer" class="contact">Contact</a></li>
-            </ul>
-        </nav> 
-
+        <ul class="navlist">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#footer" class="contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
-    
     <section class="content">
-
-        <!-- About me section -->
-    <section id="about">
+      <!-- About me section -->
+      <section id="about">
         <div class="title">
-            <h1>Full-stack developer & Computer Science student</h1>
-            <p> 
-                Passionate full stack developer focused on creating innovative solutions
-            </p>
-            <img src="./images/avatar-removebg-preview.png" alt="">
-        <div class="buttons">
+          <h1>Full-stack developer & Computer Science student</h1>
+          <p>
+            Passionate full stack developer focused on creating innovative
+            solutions
+          </p>
+          <img src="./images/avatar-removebg-preview.png" alt="" />
+          <div class="buttons">
             <button class="dl-btn" onclick="downloadPDF()">Download CV</button>
-            <a href="https://br.linkedin.com/in/fabricio-ryu-akashi-santana" target="_blank"><button class="btn">LinkedIn</button></a>
-            <a href="https://github.com/FabricioAkashi" target="_blank"><button class="btn">Github</button></a>
+            <a
+              href="https://br.linkedin.com/in/fabricio-ryu-akashi-santana"
+              target="_blank"
+              ><button class="btn">LinkedIn</button></a
+            >
+            <a href="https://github.com/FabricioAkashi" target="_blank"
+              ><button class="btn">Github</button></a
+            >
+          </div>
         </div>
-        </div>
+      </section>
 
-        
-    </section>
-
-     <!-- Greeting section  -->
-    <div class="section">
+      <!-- Greeting section  -->
+      <div class="section">
         <div class="greeting">
-                <h1>Hi, nice to meet you! I'm Fabricio.</h1>
-                <p>
-                    I started my journey into programming at early 2024, diving into <b> front-end</b> and <b>back-end</b> development. 
-                    While I’m still building my experience, I’ve been dedicating my time to learning the latest technologies
-                    and improving my skills through personal projects.
-                </p>
+          <h1>Hi, nice to meet you! I'm Fabricio.</h1>
+          <p>
+            I started my journey into programming at early 2024, diving into
+            <b> front-end</b> and <b>back-end</b> development. While I’m still
+            building my experience, I’ve been dedicating my time to learning the
+            latest technologies and improving my skills through personal
+            projects.
+          </p>
         </div>
 
         <!-- Skills section -->
         <section id="skills">
-            <div class="card">
-                <h2>Here are some of my skills:</h2>
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <img src="./images/icons/Home (5).png" alt="" style="height: 40px; width: 70px;">
-                        <p>HTML & CSS</p>
-                    </div>
-                    <div class="grid-item">
-                        <img src="./images/icons/Home (6).png" alt="" style="height: 40px; width: 50px;">
-                        <p>Javascript</p>
-                    </div>
-                    <div class="grid-item">
-                        <img src="./images/icons/1174949_js_react js_logo_react_react native_icon.png" alt="" style="height: 40px; width: 50px;">
-                        <p>React</p>
-                    </div>
-                    <div class="grid-item">
-                        <img src="./images/icons/nodejs.256x157.png" alt="" style="height: 40px; width: 60px;">
-                        <p>NodeJS</p>
-                    </div>
-                    <div class="grid-item">
-                        <img src="./images/icons/database-39-32.png" alt="" style="height: 40px; width: 40px;">
-                        <p>SQL</p>
-                    </div>
-                    <div class="grid-item">
-                        <img src="./images/icons/Home (8).png" alt="" style="height: 40px; width: 40px;">
-                        <p>Git/Github</p>
-                    </div>
-                </div>
+          <div class="card">
+            <h2>Here are some of my skills:</h2>
+            <div class="grid-container">
+              <div class="grid-item">
+                <img
+                  src="./images/icons/Home (5).png"
+                  alt=""
+                  style="height: 40px; width: 70px"
+                />
+                <p>HTML & CSS</p>
+              </div>
+              <div class="grid-item">
+                <img
+                  src="./images/icons/Home (6).png"
+                  alt=""
+                  style="height: 40px; width: 50px"
+                />
+                <p>Javascript</p>
+              </div>
+              <div class="grid-item">
+                <img
+                  src="./images/icons/1174949_js_react js_logo_react_react native_icon.png"
+                  alt=""
+                  style="height: 40px; width: 50px"
+                />
+                <p>React</p>
+              </div>
+              <div class="grid-item">
+                <img
+                  src="./images/icons/nodejs.256x157.png"
+                  alt=""
+                  style="height: 40px; width: 60px"
+                />
+                <p>NodeJS</p>
+              </div>
+              <div class="grid-item">
+                <img
+                  src="./images/icons/database-39-32.png"
+                  alt=""
+                  style="height: 40px; width: 40px"
+                />
+                <p>SQL</p>
+              </div>
+              <div class="grid-item">
+                <img
+                  src="./images/icons/Home (8).png"
+                  alt=""
+                  style="height: 40px; width: 40px"
+                />
+                <p>Git/Github</p>
+              </div>
             </div>
+          </div>
         </section>
-    </div>
+      </div>
 
-    <!-- Projects section -->
-    <section id="projects">
+      <!-- Projects section -->
+      <section id="projects">
         <h1>My recent projects</h1>
-        <p id="subt">Here are some projects that i've made so far or currently developing </p>
+        <p id="subt">
+          Here are some projects that i've made so far or currently developing
+        </p>
 
         <div class="project-container">
-            <div class="grid-item">
-                <img src="./images/portifolio.png" alt="Imagem 4">
-                <p class="desc">Click the button below to see the repository of this website</p>
-                <a href="https://github.com/FabricioAkashi/Portifolio" target="_blank"><button class="rep-btn">Repository</button></a>
+          <div class="grid-item">
+            <img src="./images/portifolio.png" alt="Imagem 4" />
+            <p class="desc">
+              Click the button below to see the repository of this website
+            </p>
+            <a
+              href="https://github.com/FabricioAkashi/Portifolio"
+              target="_blank"
+              ><button class="rep-btn">Repository</button></a
+            >
+          </div>
+          <div class="grid-item">
+            <img src="./images/DiceGame.png" alt="Imagem 1" />
+            <p class="desc">
+              A dice game where you can roll 2 dices and see who wins, refresh
+              the page for a new game!
+            </p>
+            <div class="p-btn">
+              <a href="https://dice-game-ten-neon.vercel.app/" target="_blank"
+                ><button class="web-btn">Go to website</button></a
+              >
+              <a
+                href="https://github.com/FabricioAkashi/Dice-game"
+                target="_blank"
+                ><button class="rep-btn">Repository</button></a
+              >
             </div>
-            <div class="grid-item">
-                <img src="./images/DiceGame.png" alt="Imagem 1">
-                <p class="desc">A dice game where you can roll 2 dices and see who wins, refresh the page for a new game! </p>
-                <div class="p-btn">
-                    <a href="https://dice-game-ten-neon.vercel.app/" target="_blank"><button class="web-btn">Go to website</button></a>
-                    <a href="https://github.com/FabricioAkashi/Dice-game" target="_blank"><button class="rep-btn">Repository</button></a>
-                </div> 
+          </div>
+          <div class="grid-item">
+            <img src="./images/Tindog.png" alt="Imagem 2" />
+            <p class="desc">A Tinder inspired page, but for Dogs!</p>
+            <div class="p-btn">
+              <a href="https://tindog-eta-cyan.vercel.app/" target="_blank"
+                ><button class="web-btn">Go to website</button></a
+              >
+              <a href="https://github.com/FabricioAkashi/Tindog" target="_blank"
+                ><button class="rep-btn">Repository</button></a
+              >
             </div>
-            <div class="grid-item">
-                    <img src="./images/Tindog.png" alt="Imagem 2">
-                    <p class="desc">A Tinder inspired page, but for Dogs!</p>
-                <div class="p-btn">
-                    <a href="https://tindog-eta-cyan.vercel.app/" target="_blank"><button class="web-btn">Go to website</button></a>
-                    <a href="https://github.com/FabricioAkashi/Tindog" target="_blank"><button class="rep-btn">Repository</button></a>
-                </div>
+          </div>
+          <div class="grid-item">
+            <img src="./images/Drums.png" alt="Imagem 3" />
+            <p class="desc">
+              Play the sound of an instrument by clicking on the buttons or
+              pressing the respective key on your keyboard.
+            </p>
+            <div class="p-btn">
+              <a href="https://drums-website.vercel.app/" target="_blank"
+                ><button class="web-btn">Go to website</button></a
+              >
+              <a
+                href="https://github.com/FabricioAkashi/Drums-website"
+                target="_blank"
+                ><button class="rep-btn">Repository</button></a
+              >
             </div>
-            <div class="grid-item">
-                    <img src="./images/Drums.png" alt="Imagem 3">
-                    <p class="desc">Play the sound of an instrument by clicking on the buttons or pressing the respective key on your keyboard.</p>
-                <div class="p-btn">
-                    <a href="https://drums-website.vercel.app/" target="_blank"><button class="web-btn">Go to website</button></a>
-                    <a href="https://github.com/FabricioAkashi/Drums-website" target="_blank"><button class="rep-btn">Repository</button></a>
-                </div>
+          </div>
+          <div class="grid-item">
+            <img src="./images/SimonGame.png" alt="Imagem 4" />
+            <p class="desc">A simon game website using Javascript</p>
+            <div class="p-btn">
+              <a href="https://simon-game-ivory-one.vercel.app/" target="_blank"
+                ><button class="web-btn">Go to website</button></a
+              >
+              <a
+                href="https://github.com/FabricioAkashi/Simon-Game"
+                target="_blank"
+                ><button class="rep-btn">Repository</button></a
+              >
             </div>
-            <div class="grid-item">
-                    <img src="./images/SimonGame.png" alt="Imagem 4">
-                    <p class="desc">A simon game website using Javascript</p>
-                <div class="p-btn">
-                    <a href="https://simon-game-ivory-one.vercel.app/" target="_blank"><button class="web-btn">Go to website</button></a>
-                    <a href="https://github.com/FabricioAkashi/Simon-Game" target="_blank"><button class="rep-btn">Repository</button></a>
-                </div>
-            </div>
+          </div>
         </div>
+      </section>
+
+      <!-- Contacts/footer section -->
+      <section id="footer">
+        <h1>
+          If you'd like to contact me wether for work or a project, please feel
+          free to send me an email!
+        </h1>
+        <a
+          href="mailto:fabricio.akashi26@gmail.com?subject=Oportunidade%20de%20Trabalho&body=Olá%20Fabricio,%20gostaria%20de%20conversar.%20Quando%20poderíamos%20agendar%20uma%20reunião?"
+          class="email"
+          ><p>fabricio.akashi26@gmail.com</p></a
+        >
+        <span>Or use any of these socials below:</span>
+        <br />
+        <a
+          href="https://br.linkedin.com/in/fabricio-ryu-akashi-santana"
+          target="_blank"
+          class="icons"
+          ><i class="fa-brands fa-linkedin fa-xl"></i
+        ></a>
+        <a
+          href="https://github.com/FabricioAkashi"
+          target="_blank"
+          class="icons"
+          ><i class="fa-brands fa-github fa-xl"></i
+        ></a>
+      </section>
     </section>
 
-    <!-- Contacts/footer section -->
-    <section id="footer">
-            <h1>If you'd like to contact me wether for work or a project, please feel free to send me an email!</h1>
-            <a href="mailto:fabricio.akashi26@gmail.com?subject=Oportunidade%20de%20Trabalho&body=Olá%20Fabricio,%20gostaria%20de%20conversar.%20Quando%20poderíamos%20agendar%20uma%20reunião?" class="email"><p>fabricio.akashi26@gmail.com</p></a>
-            <span>Or use any of these socials below:</span>
-            <br/>
-            <a href="https://br.linkedin.com/in/fabricio-ryu-akashi-santana" target="_blank" class="icons"><i class="fa-brands fa-linkedin fa-xl"></i></a>
-            <a href="https://github.com/FabricioAkashi" target="_blank" class="icons"><i class="fa-brands fa-github fa-xl"></i></a>
-</section>
-</section>
-
-<script src="scroll.js"></script>
-<script src="mobilenav.js"></script>
-<script src="script.js"></script>
-</body>
+    <script src="scroll.js"></script>
+    <script src="mobilenav.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
